@@ -1,0 +1,93 @@
+The following are the properties that the attestation schemas should have. This is still a WIP. It is being worked with the support of financial workers, lenders, and borrowers.
+
+**Google Maps**
+- Exists in GMaps: boolean
+- Rating: float
+- Number of reviews: integer
+- Number of customer uploaded photos: integer
+- Popular times to visit graph available: boolean
+- Date information was validated: string
+- Validator's wallet address: address
+
+**IRL credit history**
+- Vouching credit institution: string
+- Wallet address from credit institution: address
+- Times person has asked credit: integer
+- Times person has paid back credit: integer
+- Times person defaulted: integer
+- Smaller credit line approved: integer
+- Larger credit line approved: integer
+- Date information was validated: string
+- Validator's wallet address: address
+
+**Business and home addresses**
+- Business location verified with borrower in place: boolean
+- Home location verified with borrower in place: boolean
+- Proof of addresses match real locations: boolean
+- Locations saved in map: boolean
+- Known by neighbors: boolean
+- Date information was validated: string
+- Validator's wallet address: address
+
+**Business information**
+- Commercial category: string
+- Years business is running: float
+- Number of employees: integer
+- Municipal license: string (valid, expired, non)
+- Smart phone with WhatsApp: boolean
+- Validator's wallet address: address
+
+**Professional expertise**
+- Recognized training certificate #1: string (user must be able to proof that their training is legit either through a URL from a trusted source eg. LinkedIn, Udemy, or a whitelisted POAP collection)
+- Recognized training certificate #2: string (same as above)
+- Recognized training certificate #3: string (same as above)
+- Event #1 attended to update on the industry's network and offer: string (whitelisted POAP collection)
+- Event #2 attended to update on the industry's network and offer: string (whitelisted POAP collection)
+
+**Climate resilience**
+- Is business climate resilient: boolean
+- If yes, how: string
+- Date information was validated: string
+- Validator's wallet address: address
+
+**Loan information**
+- Credit line approved: float
+- Reason for the credit; string (user must select from these options: inventory, salaries, utilities, equipment, training, climate resiliency, personal expenses, expand, marketing, R&D, health issues, other investments, other purposes)
+- Weeks for paid back: integer
+- Next payment will occur at: string (date)
+- Total collateral available: integer
+- Total delegated collateral available: integer
+- Date of request: string
+- Responsible local banker: address
+- Interest rate: float
+- Weekly payment amount: float
+- Beneficiary address #1: address
+- Beneficiary address #2: address
+- Beneficiary address #3: address
+- Beneficiary address #4: address
+  #This attestation is a summary of the credit request. It is created from 1) data filled by the borrower through a form and 2) the borrower's smart wallet data. This attestation is created when the loan has been approved and the credit was delivered.
+
+**Payment behavior**
+- Payment #: integer
+- Payment amount: float
+- Date of payment: string
+- On time payment: boolean
+- Delayed days: integer
+- Required visit: boolean
+- Required negotiation: boolean
+- Defaulted: boolean
+  #This attestation is issued automatically when the borrower pays to her credit line OR one day after the payment date in the case it was not processed. In this last case -where the payment date arrives and no payment is received, the attesation will happen and it will trigger a notification to the agent on the ground for her to make a visit.
+
+**Negotiation**
+- Agent on the ground: address
+- Reason: string
+- New weekly payment amount: float
+- New number of weeks to pay: integer
+  
+**Defaulted**
+- Reason: string (if death, then it should trigger a collateral distribution in this order: 1) lenders, 2) beneficiaries)
+- Defaulted date: string
+- Agent on the ground: address
+- Responsible local banker: address 
+
+Later each of these properties will be weighted also via collective intelligence from financial workers, lenders, borrowers, and reputation experts.
