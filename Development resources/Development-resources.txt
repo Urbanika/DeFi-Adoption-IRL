@@ -2,15 +2,19 @@ deCreditScore - Development resources
 
 E.A.S.
 https://arbitrum.easscan.org/
-
 E.A.S. Docs
 https://docs.attest.org/docs/welcome
 
 Passport Gitcoin
 https://passport-gitcoin-co.ipns.dweb.link/
-
 Passport Gitcoin Docs
 https://docs.passport.gitcoin.co/building-with-passport/smart-contracts/overview
+
+Express.js
+https://expressjs.com/en/4x/api.html
+
+React
+https://react.dev/reference/react
 
 Google Maps
 https://developers.google.com/maps/documentation/
