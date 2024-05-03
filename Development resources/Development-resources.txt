@@ -1,0 +1,27 @@
+deCreditScore - Development resources
+
+E.A.S.
+https://arbitrum.easscan.org/
+
+E.A.S. Docs
+https://docs.attest.org/docs/welcome
+
+Passport Gitcoin
+https://passport-gitcoin-co.ipns.dweb.link/
+
+Passport Gitcoin Docs
+https://docs.passport.gitcoin.co/building-with-passport/smart-contracts/overview
+
+Google Maps
+https://developers.google.com/maps/documentation/
+
+Manage ENS Names with Gnosis Safe
+https://makoto-inoue.medium.com/you-can-now-manage-ens-names-with-gnosis-safe-9ddcb7e6c4ac
+
+Orbis for profile, Ceramic for save info in to blockchain, and Holonym for the privacy
+https://paragraph.xyz/@holonym/building-an-attestation-gated-web3-forum-with-holonym
+
+Web2 to Web3
+1. https://eth.link/
+2. https://collindyer.medium.com/how-to-make-a-eth-link-website-bd3aba5bfd67
+3. video: https://www.youtube.com/watch?v=H-0Drm0-ZeM
